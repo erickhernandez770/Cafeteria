@@ -137,6 +137,20 @@ if __name__ == "__main__":
         categoria="Bebida Fría"
     )
 
+    # Cambio Alberto
+    mi_cafeteria.agregar_producto(
+        nombre="Tostada de Aguacate",
+        precio=6.00,
+        categoria="Alimentos"
+    )
+
+    # 🌟 PRODUCTO DISTINTO 2
+    mi_cafeteria.agregar_producto(
+        nombre="Limonada Menta",
+        precio=3.20,
+        categoria="Bebida Fría"
+    )
+
     # --- PRUEBA DE VISUALIZACIÓN ---
     print("\n--- 2. MOSTRANDO EL MENÚ ACTUALIZADO ---")
     mi_cafeteria.mostrar_menu()
