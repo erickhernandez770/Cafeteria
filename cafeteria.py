@@ -137,6 +137,44 @@ if __name__ == "__main__":
         categoria="Bebida Fría"
     )
 
+    #Cambio Erick
+    # 🌟 PRODUCTO 1: Café Especializado
+    mi_cafeteria.agregar_producto(
+        nombre="Mocha Blanco",
+        precio=4.95,
+        categoria="Café Especial"
+    )
+
+    # 🌟 PRODUCTO 2: Postre Clásico
+    mi_cafeteria.agregar_producto(
+        nombre="Brownie de Nuez",
+        precio=2.75,
+        categoria="Postre"
+    )
+
+    # 🌟 PRODUCTO 3: Bebida Caliente (No café)
+    mi_cafeteria.agregar_producto(
+        nombre="Chocolate Caliente",
+        precio=3.10,
+        categoria="Bebida Caliente"
+    )
+
+    # 🌟 PRODUCTO 4: Alternativa Saludable
+    mi_cafeteria.agregar_producto(
+        nombre="Yogurt con Granola",
+        precio=5.50,
+        categoria="Alimentos"
+    )
+
+    # 🌟 PRODUCTO 5: Bebida Fría Compleja
+    mi_cafeteria.agregar_producto(
+        nombre="Frappé de Caramelo",
+        precio=5.25,
+        categoria="Bebida Fría"
+    )
+    #Fin del cambio
+
+
     # --- PRUEBA DE VISUALIZACIÓN ---
     print("\n--- 2. MOSTRANDO EL MENÚ ACTUALIZADO ---")
     mi_cafeteria.mostrar_menu()
